@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .moving-image {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      animation-name:moving;
+	  animation-duration:4s;
+    }
+	@keyframes moving {
+     0%{left:0px;top:0px;}
+	 25%{left:76%;top:0px;}
+	 50%{left:76%;top:70%;}
+	 75%{left:0px;top:70%;}
+	 100%{left:0px;top:0px;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="moving-image">
+<img  src="img.jpg" >
+</div>
+
+</body>
+</html>
